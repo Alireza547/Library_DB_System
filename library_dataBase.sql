@@ -187,10 +187,6 @@ primary key(Publication_id),
 foreign key(Publisher_id) references Publisher(Publisher_id),
 foreign key(Copy_id) references Copy(Copy_id));
 
-show tables;
-
-alter table Loan
-add constraint pk_loan primary key(Loan_id);
 
 
 
