@@ -212,10 +212,3 @@ select * from Leaflet;
 select * from Publisher;
 select * from Publication;
 
-update Section
-set Section_name = 'novels/criminal'
-where Section_id = 1801;
-
-update libraryMember
-set libraryMember_address ='alborz_fardis'
-where libraryMember_id = 1000
